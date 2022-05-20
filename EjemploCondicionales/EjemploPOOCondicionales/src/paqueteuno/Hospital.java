@@ -93,6 +93,24 @@ public class Hospital {
         return presupuestoAnual;
     }
     
+    @Override
+    public String toString(){
+        String a;
+        a = String.format("Datos Hospital\n"
+                    + "Nombre del hospital: %s\n"
+                    + "Ciudad del hospital: %s\n"
+                    + "Número de camas: %d\n"
+                    + "Número de doctores: %d\n"
+                    + "Presupuesto anual: %.2f\n",
+                    obtenerNombreHospital(),
+                    obtenerCiudadHospital(),
+                    obtenerNumeroCamas(),
+                    obtenerNumeroDoctores(),
+                    obtenerPresupuestoAnual());
+        return a;
+    
+}
+    
     
     
     
