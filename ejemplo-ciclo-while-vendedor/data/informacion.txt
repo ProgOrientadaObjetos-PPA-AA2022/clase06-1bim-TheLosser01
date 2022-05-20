@@ -1,0 +1,14 @@
+Datos de Vendedor
+Nombre: Juan
+Edad: 33
+Salario mínimo: 425,00
+Número de autos: 4
+Pago mensual: 1025,00
+
+Datos de Vendedor
+Nombre: Victor
+Edad: 19
+Salario mínimo: 400,00
+Número de autos: 4
+Pago mensual: 1000,00
+
